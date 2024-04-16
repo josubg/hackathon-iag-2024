@@ -28,6 +28,11 @@ class SimpleLLMClient(metaclass=Singleton):
         pass
 
 
+class FileExtractor:
+    def __init__(self, document_intelligence_endpoint, document_intelligence_api_key, document_intelligence_locale):
+        pass
+
+
 if __name__ == "__main__":
     from dotenv import load_dotenv
     load_dotenv()

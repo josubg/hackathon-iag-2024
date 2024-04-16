@@ -17,7 +17,7 @@ class RetrievalAugmentedGeneration(metaclass=Singleton):
                  openai_gpt_deployment_name: str,
                  openai_gpt_model_name: str,
                  openai_embedding_deployment_name: str):
-
+        pass
 
     @classmethod
     def get(cls):

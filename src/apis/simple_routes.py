@@ -4,7 +4,7 @@ from fastapi import APIRouter, UploadFile, Depends, File
 from fastapi.responses import JSONResponse
 
 from models.chat import ChatRequest, ChatResponse
-from simple import SimpleLLMClient, FileExtractor
+from simple import SimpleLLMClient
 
 router = APIRouter()
 
